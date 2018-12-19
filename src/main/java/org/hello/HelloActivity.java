@@ -16,7 +16,7 @@ public class HelloActivity extends Activity {
     public void onStart() {
         super.onStart();
         TextView textView = (TextView) findViewById(R.id.text_view);
-        textView.setText("Hello world!");
+        textView.setText("Changes made in source code!");
     }
 
 }
